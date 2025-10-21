@@ -34,13 +34,13 @@ export interface NavData {
 export const navigationBarData: NavData = {
 	logo: {
 		src: '/logo.svg',
-		alt: 'The tailwind astro theme',
-		text: 'Foxi.'
+		alt: 'The logo of FOSSIA',
+		text: ''
 	},
 	navItems: [
-		{ name: 'Home', link: '/' },
-		{ name: 'Pricing', link: '/pricing' },
-		{ name: 'Features', link: '/features' },
+		{ name: 'About', link: '/about' },
+		{ name: 'Projects', link: '/projects' },
+		{ name: 'Blog', link: '/blog' },
 		{
 			name: 'Resources',
 			link: '#',

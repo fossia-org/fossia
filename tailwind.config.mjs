@@ -64,7 +64,7 @@ export default {
       },
       fontFamily: {
         sans: ["Inter Variable", ...defaultTheme.fontFamily.sans],
-        headings: ["Outfit Variable", ...defaultTheme.fontFamily.sans],
+        headings: ["Montserrat", ...defaultTheme.fontFamily.sans],
       },
       keyframes: {
         dropdown: {
