@@ -1,0 +1,24 @@
+---
+// Components
+// - Layout
+import Layout from '../../layouts/Layout.astro'
+// - UI
+import ContactCards from '../../components/blocks/contact/ContactCards.astro'
+
+// Content
+// - SEO
+const SEO = {
+	title: 'Get Involved',
+	description:
+		'Get in touch with the FOSSIA to hang out and get involved with the community.'
+}
+// - Page Header
+const header = {
+	title: 'Get Involved',
+	text: 'Join our community to ask questions and learn in a collaborative manner to get involved with and contribute back to the FOSS ecosystem.'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<ContactCards classes="dark:bg-neutral-950/80" />
+</Layout>

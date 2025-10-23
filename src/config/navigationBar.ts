@@ -39,19 +39,16 @@ export const navigationBarData: NavData = {
 	},
 	navItems: [
 		{ name: 'About', link: '/about' },
-		{ name: 'Projects', link: '/projects' },
+		{ name: 'Projects', link: '/project' },
 		{ name: 'Blog', link: '/blog' },
 		{
 			name: 'Resources',
-			link: '#',
 			submenu: [
-				{ name: 'Blog', link: '/blog' },
-				{ name: 'Changelog', link: '/changelog' },
+				{ name: 'Get Involved', link: '/resources/get-involved' },
 				{ name: 'FAQ', link: '/faq' },
-				{ name: 'Terms', link: '/terms' }
+				{ name: 'Code of Conduct', link: '/coc' }
 			]
-		},
-		{ name: 'Contact', link: '/contact' }
+		}
 	],
-	navActions: [{ name: 'Try it now', link: '/', style: 'primary', size: 'lg' }]
+	navActions: []
 }

@@ -106,6 +106,6 @@ export const footerNavigationData: FooterData = {
 		}
 	],
 	subFooter: {
-		copywriteText: 'This website is licensed under MIT License.'
+		copywriteText: 'This website is licensed under GNU AGPLv3 License.'
 	}
 }

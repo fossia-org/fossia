@@ -7,7 +7,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://foxi.netlify.app/",
+  site: "https://fossia.vercel.app",
   integrations: [
     tailwind(),
     icon(),
