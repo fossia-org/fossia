@@ -39,14 +39,15 @@ export const navigationBarData: NavData = {
 	},
 	navItems: [
 		{ name: 'About', link: '/about' },
-		{ name: 'Projects', link: '/project' },
+		{ name: 'Projects', link: '/projects' },
 		{ name: 'Blog', link: '/blog' },
 		{
 			name: 'Resources',
+			link: '',
 			submenu: [
 				{ name: 'Get Involved', link: '/resources/get-involved' },
-				{ name: 'FAQ', link: '/faq' },
-				{ name: 'Code of Conduct', link: '/coc' }
+				{ name: 'FAQ', link: '/resources/faq' },
+				{ name: 'Code of Conduct', link: '/resources/code-of-conduct' }
 			]
 		}
 	],
