@@ -33,12 +33,12 @@ export interface NavData {
 
 export const navigationBarData: NavData = {
 	logo: {
-		src: '/logo.svg',
+		src: '/logo.png',
 		alt: 'The logo of FOSSIA',
 		text: ''
 	},
 	navItems: [
-		{ name: 'About', link: '/about' },
+		{ name: 'About', link: '/' },
 		{ name: 'Projects', link: '/projects' },
 		{ name: 'Blog', link: '/blog' },
 		{

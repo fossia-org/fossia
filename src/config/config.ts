@@ -24,10 +24,10 @@ export const configData: Config = {
 	siteTitle: 'FOSSIA',
 	siteDescription:
 		'FOSSIA is a women-centric community aimed to encourage underrepresented people to contribute to Indian FOSS ecosystem.',
-	ogImage: '/og.jpg',
+	ogImage: '/logo.png',
 	logo: {
-		src: '/logo.svg',
-		alt: 'Foxi. logo'
+		src: '/logo.png',
+		alt: 'FOSSIA logo'
 	},
 	canonical: true,
 	noindex: false,

@@ -39,50 +39,38 @@ export const footerNavigationData: FooterData = {
 		aboutText:
 			'Information on FOSSIA for getting in touch with the community and knowing more about our initiatives.',
 		logo: {
-			src: '/logo.svg',
+			src: '/logo.png',
 			alt: 'Logo of FOSSIA',
 			text: 'FOSSIA'
 		}
 	},
 	footerColumns: [
 		{
-			category: 'Product',
+			category: 'Resources',
 			subCategories: [
 				{
-					subCategory: 'Features',
+					subCategory: 'Projects',
 					subCategoryLink: '/features'
 				},
 				{
 					subCategory: 'FAQ',
-					subCategoryLink: '/faq'
+					subCategoryLink: '/resources/faq'
 				},
 				{
-					subCategory: 'Pricing',
-					subCategoryLink: '/pricing'
+					subCategory: 'Code of Conduct',
+					subCategoryLink: '/resources/code-of-conduct'
 				},
-				{
-					subCategory: 'Changelog',
-					subCategoryLink: '/changelog'
-				},
-				{
-					subCategory: 'Terms',
-					subCategoryLink: '/terms'
-				}
 			]
 		},
 		{
 			category: 'About us',
 			subCategories: [
 				{
-					subCategory: 'About us',
-					subCategoryLink: '/'
+					subCategory: 'Team',
+					subCategoryLink: '/team'
 				},
 				{
-					subCategory: 'News',
-					subCategoryLink: '/blog'
-				},
-				{
-					subCategory: 'Careers',
+					subCategory: 'Blog',
 					subCategoryLink: '/blog'
 				}
 			]
@@ -91,16 +79,28 @@ export const footerNavigationData: FooterData = {
 			category: 'Get in touch',
 			subCategories: [
 				{
+					subCategory: 'Get Involved',
+					subCategoryLink: '/resources/get-involved'
+				},
+				{
+					subCategory: 'GitHub',
+					subCategoryLink: 'https://github.com/fossiaorg'
+				},
+				{
+					subCategory: 'LinkedIn',
+					subCategoryLink: 'https://linkedin.com/company/fossiaorg'
+				},
+				{
+					subCategory: 'Mastodon',
+					subCategoryLink: 'https://mas.to/@fossiaorg'
+				},
+				{
+					subCategory: 'Instagram',
+					subCategoryLink: 'https://instagram.com/fossiaorg'
+				},
+				{
 					subCategory: 'Contact',
-					subCategoryLink: '/contact'
-				},
-				{
-					subCategory: 'Support',
-					subCategoryLink: '/contact'
-				},
-				{
-					subCategory: 'Join us',
-					subCategoryLink: '/contact'
+					subCategoryLink: 'mailto:fossia@riseup.net'
 				}
 			]
 		}
