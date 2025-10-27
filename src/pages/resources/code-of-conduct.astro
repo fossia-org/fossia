@@ -3,17 +3,84 @@
 // - Layout
 import Layout from '../../layouts/Layout.astro'
 // - UI
-import ContactCards from '../../components/blocks/contact/ContactCards.astro'
+import Hero from '../../components/blocks/hero/PageHeader.astro'
 
 // Content
 // - SEO
 const SEO = {
-	title: 'Get Involved',
-	description:
-		'Get in touch with the FOSSIA to hang out and get involved with the community.'
+	title: 'Code of Conduct - FOSSIA',
+	description: 'Our code of conduct to ensure the community is inclusive and safe for everyone.'
 }
 ---
 
 <Layout title={SEO.title} description={SEO.description}>
-	<ContactCards classes="dark:bg-neutral-950/80" />
+	<Hero title="Code of Conduct" />
+	<div class="flex flex-col space-y-4 p-16">
+		<div class="coc-item">
+			<h3 class="mb-2 font-medium">Respect & Kindness</h3>
+			<p>
+				Be respectful and kind to all members. Build a welcoming community where everyone can feel
+				safe to contribute, learn, and develop.
+			</p>
+		</div>
+
+		<div class="coc-item">
+			<h3 class="mb-2 font-medium">Collaboration & Inclusion</h3>
+			<p>
+				We promote collaboration and inclusion. We believe in contributions from all members,
+				irrespective of gender, background or experience.
+			</p>
+		</div>
+
+		<div class="coc-item">
+			<h3 class="mb-2 font-medium">Zero Tolerance for Harassment</h3>
+			<p>Harassment, discrimination, or any form of hurtful behavior is not tolerated.</p>
+		</div>
+
+		<div class="coc-item">
+			<h3 class="mb-2 font-medium">Constructive Feedback</h3>
+			<p>
+				In providing feedback, be helpful and constructive. Instead of criticizing people, highlight
+				ways to make ideas better.
+			</p>
+		</div>
+
+		<div class="coc-item">
+			<h3 class="mb-2 font-medium">Mutual Support</h3>
+			<p>
+				FOSSIA is found on the principle of mutual support. Support fellow members, exchange
+				resources, and support one another to succeed.
+			</p>
+		</div>
+
+		<div class="coc-item">
+			<h3 class="mb-2 font-medium">Collaborative Learning</h3>
+			<p>
+				We are here to learn together. Be willing to learn from others and exchange knowledge
+				freely.
+			</p>
+		</div>
+
+		<div class="coc-item">
+			<h3 class="mb-2 font-medium">Privacy</h3>
+			<p>
+				Be respectful of other people's privacy. Don't disclose personal or sensitive information
+				without permission.
+			</p>
+		</div>
+
+		<div class="coc-item">
+			<h3 class="mb-2 font-medium">Equal Opportunities</h3>
+			<p>
+				FOSSIA believes in an egalitarian women-centric community allowing passionate individuals to
+				join and contribute, irrespective of their identity or background to build a safe and
+				inclusive space for women to contribute to the FOSS ecosystem.
+			</p>
+		</div>
+
+		<div class="coc-item">
+			<h3 class="mb-2 font-medium">Appropriate Use of Authority</h3>
+			<p>Abuse of authority is not entertained.</p>
+		</div>
+	</div>
 </Layout>

@@ -3,17 +3,30 @@
 // - Layout
 import Layout from '../../layouts/Layout.astro'
 // - UI
-import ContactCards from '../../components/blocks/contact/ContactCards.astro'
+import Hero from '../../components/blocks/hero/PageHeader.astro'
+import FAQ from '../../components/blocks/FAQ/FaqSticky.astro'
 
-// Content
+// Data
+import fossiaFaqData from '../../data/json-files/faqData.json'
+
 // - SEO
 const SEO = {
-	title: 'Get Involved',
+	title: 'FAQ - FOSSIA',
 	description:
-		'Get in touch with the FOSSIA to hang out and get involved with the community.'
+		'Check out some of the common questions related to FOSSIA.'
+}
+// - Page Header
+const header = {
+	title: 'Frequently Asked Questions (FAQ)',
+	text: ''
 }
 ---
 
 <Layout title={SEO.title} description={SEO.description}>
-	<ContactCards classes="dark:bg-neutral-950/80" />
+	<Hero title={header.title} text={header.text} />
+	<FAQ
+		title=""
+		text=""
+		data={fossiaFaqData}
+	/>
 </Layout>

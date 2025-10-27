@@ -1,104 +1,92 @@
 [
-	{
-		"question": "What is the cost of the basic plan?",
-		"reply": "The basic plan is $9.99 per month, which includes access to core features and limited integrations. This plan is perfect for individuals or small teams looking to improve their productivity without a large investment.",
-		"category": "pricing",
-		"open": true
-	},
-	{
-		"question": "Are there any discounts for annual subscriptions?",
-		"reply": "Yes, we offer a 20% discount on annual subscriptions for all our plans. By choosing an annual subscription, you can save money and ensure uninterrupted access to all Foxi features for the entire year.",
-		"category": "pricing",
-		"open": false
-	},
-	{
-		"question": "Can I change my subscription plan at any time?",
-		"reply": "Yes, you can upgrade or downgrade your subscription plan at any time from your account settings. This flexibility allows you to adjust your plan based on your changing needs and usage.",
-		"category": "pricing",
-		"open": false
-	},
-	{
-		"question": "Is there a free trial available?",
-		"reply": "Yes, we offer a 14-day free trial for all new users. During the trial, you can explore all the features of Foxi without any commitment, allowing you to see how it fits into your workflow.",
-		"category": "pricing",
-		"open": false
-	},
-	{
-		"question": "Do you offer refunds?",
-		"reply": "We offer a 30-day money-back guarantee if you are not satisfied with our service. Simply contact our support team within 30 days of your purchase, and we'll process your refund.",
-		"category": "pricing",
-		"open": false
-	},
-	{
-		"question": "How do I cancel my subscription?",
-		"reply": "You can cancel your subscription from your account settings at any time. After cancellation, you will still have access to your account until the end of the billing cycle.",
-		"category": "pricing",
-		"open": false
-	},
-	{
-		"question": "Can I use Foxi with Google Calendar?",
-		"reply": "Yes, Foxi integrates seamlessly with Google Calendar for easy scheduling and task management. This integration helps you keep track of your events and tasks in one place.",
-		"category": "integrations",
-		"open": true
-	},
-	{
-		"question": "Does Foxi work with Slack?",
-		"reply": "Yes, you can integrate Foxi with Slack to receive notifications and updates directly in your channels. This allows you to stay informed about your projects without leaving Slack.",
-		"category": "integrations",
-		"open": false
-	},
-	{
-		"question": "How do I connect Foxi with Trello?",
-		"reply": "To connect Foxi with Trello, go to the integrations page in your settings and follow the instructions to link your accounts. This integration helps you manage your Trello boards and Foxi projects together.",
-		"category": "integrations",
-		"open": false
-	},
-	{
-		"question": "Is there an API for custom integrations?",
-		"reply": "Yes, we provide an API that allows you to create custom integrations with Foxi. Our API documentation provides detailed instructions and examples to help you get started.",
-		"category": "integrations",
-		"open": false
-	},
-	{
-		"question": "Can I sync Foxi with my email?",
-		"reply": "Currently, we do not support email integration, but this feature is on our roadmap for future releases. Stay tuned for updates as we continue to enhance Foxi's capabilities.",
-		"category": "integrations",
-		"open": false
-	},
-	{
-		"question": "Does Foxi support Zapier?",
-		"reply": "Yes, Foxi integrates with Zapier, allowing you to connect with over 2,000 apps and automate your workflows. This integration helps you streamline your processes and improve efficiency.",
-		"category": "integrations",
-		"open": false
-	},
-	{
-		"question": "What are the main features of Foxi?",
-		"reply": "Foxi includes in-app messaging, project management, time tracking, customizable dashboards, and more. These features are designed to help you stay organized, communicate effectively, and manage your time efficiently.",
-		"category": "features",
-		"open": true
-	},
-	{
-		"question": "How do I use the in-app messaging feature?",
-		"reply": "In-app messaging allows you to communicate with your team directly within Foxi. Simply navigate to the messaging tab to start a conversation. You can send messages, share files, and create group chats.",
-		"category": "features",
-		"open": false
-	},
-	{
-		"question": "Can I customize my dashboard?",
-		"reply": "Yes, you can customize your dashboard by adding, removing, and rearranging widgets to fit your workflow. This customization helps you keep important information at your fingertips.",
-		"category": "features",
-		"open": false
-	},
-	{
-		"question": "How does the time tracking feature work?",
-		"reply": "Time tracking allows you to log the time spent on tasks and projects. Start the timer when you begin a task and stop it when you're done. You can also manually log time if needed.",
-		"category": "features",
-		"open": false
-	},
-	{
-		"question": "Is there a mobile app for Foxi?",
-		"reply": "Yes, Foxi is available on both iOS and Android, allowing you to manage your tasks and projects on the go. Download the app from the App Store or Google Play to stay productive anywhere.",
-		"category": "features",
-		"open": false
-	}
+  {
+    "question": "What is FOSSIA?",
+    "reply": "FOSSIA, previously FOSFEM, is an inclusive, women-centric community dedicated to fostering growth and development of Free and Open Source (FOSS) ecosystem in India.",
+    "category": "about",
+    "open": false
+  },
+  {
+    "question": "What does the name 'FOSSIA' mean?",
+    "reply": "'FOSS' refers to Free and Open Source Software, but is not limited to software. As in, it encompasses libre hardware, community, libre creations (design, art, and more). 'IA' refers to inclusion and accessibility, representing our community's focus on stengthening diverse participation and accessibility in Indian FOSS ecosystem.",
+    "category": "about",
+    "open": false
+  },
+  {
+    "question": "What does 'women-centric' mean?",
+    "reply": "FOSSIA is led and primarily focused on women, creating a supportive space for their growth in the FOSS ecosystem. However, it encourages men and non-binary individuals to join as allies, contribute knowledge, mentor members, and support community activities.",
+    "category": "about",
+    "open": false
+  },
+  {
+    "question": "Why create another women-centric community when others like Google Women Techmakers or LinuxChix exist?",
+    "reply": "While communities like Google Women Techmakers and LinuxChix do great work, their focus differs:\n\n- Google Women Techmakers is not FOSS-centric.\n- LinuxChix India chapter has had an inactive presence for 6 years and is not entirely about the FOSS ecosystem.\n\nFOSSIA aims to bridge these gaps, drawing inspiration from both along with organizations such as FOSS United, thus aligning with the FOSS movement.",
+    "category": "about",
+    "open": false
+  },
+  {
+    "question": "Is FOSSIA a women-only community?",
+    "reply": "No. FOSSIA is women-centric, not women-exclusive. It prioritizes women’s growth in the FOSS space but values collaboration from all individuals who believe in equality, open knowledge sharing, and community-driven development.",
+    "category": "membership",
+    "open": false
+  },
+  {
+    "question": "How can I contribute to FOSSIA?",
+    "reply": "You can contribute in a technical manner, helping with libre creatives, mentorship and conducting events to bring in awareness for active development.",
+    "category": "contribution",
+    "open": false
+  },
+  {
+    "question": "Is FOSSIA limited to India?",
+    "reply": "FOSSIA aims to promote the growth of FOSS ecosystem in India by creation of a safe and inclusive space for women for improved contribution.",
+    "category": "membership",
+    "open": false
+  },
+  {
+    "question": "How do I join FOSSIA?",
+    "reply": "You can join by participating in events, contributing to FOSS projects, or engaging with the community through online platforms and local chapters. Stay updated through our website and socials!",
+    "category": "membership",
+    "open": false
+  },
+  {
+    "question": "Should I be highly skilled to join FOSSIA?",
+    "reply": "FOSSIA is an inviting space for you to learn and contribute. Anyone interested in contributing or learning about FOSS, supporting women in tech, and engaging in community activities can participate.",
+    "category": "membership",
+    "open": false
+  },
+  {
+    "question": "What types of events does FOSSIA organize?",
+    "reply": "Currently, FOSSIA is focused on development of projects for maximum engagement, however, we are working on conducting technical and networking events to bring like-minded people together.",
+    "category": "events",
+    "open": false
+  },
+  {
+    "question": "Is FOSSIA only for tech professionals and students?",
+    "reply": "No. While many members are developers, engineers, and students, FOSSIA is open to anyone passionate about free and open source ecosystem, including designers, writers, community organizers, educators, and researchers.",
+    "category": "membership",
+    "open": false
+  },
+  {
+    "question": "Does FOSSIA collaborate with other organizations?",
+    "reply": "Yes, FOSSIA actively partners with FOSS organizations and universities to raise awareness about FOSS and organize collaborative initiatives.",
+    "category": "collaboration",
+    "open": false
+  },
+  {
+    "question": "How can organizations and sponsors support FOSSIA?",
+    "reply": "Organizations can support FOSSIA by sponsoring events, workshops, or mentorship programs.",
+    "category": "collaboration",
+    "open": false
+  },
+  {
+    "question": "Where can I find FOSSIA’s projects and contributions?",
+    "reply": "FOSSIA maintains repositories and project lists on GitHub. Community updates and contributions are also shared on the website and social media.",
+    "category": "contribution",
+    "open": false
+  },
+  {
+    "question": "How does FOSSIA ensure an inclusive and safe environment?",
+    "reply": "FOSSIA follows a strict Code of Conduct to ensure a welcoming, respectful, and harassment-free space. Community members are encouraged to uphold inclusivity, mutual respect, and positive collaboration.",
+    "category": "safety",
+    "open": false
+  }
 ]
