@@ -59,7 +59,6 @@ You can find the configuration files in the `src/config` directory. The configur
 | `src/config/config.ts`           | Includes the basic configuration settings including SEO, mode, and scroll animations.           |
 | `src/config/navigationBar.ts`    | Includes menu options for the navigation bar.                                                   |
 | `src/config/footerNavigation.ts` | Includes menu options for the footer navigation.                                                |
-| `src/config/analytics.ts`        | Includes the required codes for Google Analytics, Google Tag Manager and Google Search Console. |
 | `src/config/socialLinks.ts`      | Contains the social link data for the website.                                                  |
 
 ## Basic configuration settings
