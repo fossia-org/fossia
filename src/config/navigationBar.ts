@@ -40,7 +40,14 @@ export const navigationBarData: NavData = {
 	navItems: [
 		{ name: 'About', link: '/' },
 		{ name: 'Projects', link: '/projects' },
-		{ name: 'Blog', link: '/blog' },
+		{ 
+			name: 'Blog',
+			link: '',
+			submenu: [
+				{ name: 'Team', link: '/blog' },
+				{ name: 'Community', link: '/blog/community' }
+			]
+		},
 		{
 			name: 'Resources',
 			link: '',

@@ -10,18 +10,38 @@ export interface SocialLink {
 
 export const socialLinks: SocialLink[] = [
 	{
-		name: 'instagram',
-		link: '/',
-		icon: 'instagram-icon'
+		name: 'telegram',
+		link: 'https://t.me/fossiaorg',
+		icon: 'telegram'
+	},
+	{
+		name: 'github',
+		link: 'https://github.com/fossiaorg',
+		icon: 'github'
+	},
+	{
+		name: 'linkedin',
+		link: 'https://linkedin.com/company/fossiaorg',
+		icon: 'linkedin'
 	},
 	{
 		name: 'mastodon',
-		link: '/',
-		icon: 'twitter-icon'
+		link: 'https://mas.to/@fossiaorg',
+		icon: 'mastodon'
 	},
 	{
-		name: 'telegram',
-		link: '/',
-		icon: 'fb-icon'
+		name: 'instagram',
+		link: 'https://instagram.com/fossiaorg',
+		icon: 'instagram'
+	},
+	{
+		name: 'youtube',
+		link: 'https://youtube.com/@fossiaorg',
+		icon: 'youtube'
+	},
+	{
+		name: 'e-mail',
+		link: 'mailto:fossia@riseup.net',
+		icon: 'email'
 	}
 ]

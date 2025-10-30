@@ -63,11 +63,11 @@ export const footerNavigationData: FooterData = {
 			]
 		},
 		{
-			category: 'About us',
+			category: 'About',
 			subCategories: [
 				{
 					subCategory: 'Team',
-					subCategoryLink: '/team'
+					subCategoryLink: '/about/team'
 				},
 				{
 					subCategory: 'Blog',
@@ -81,6 +81,10 @@ export const footerNavigationData: FooterData = {
 				{
 					subCategory: 'Get Involved',
 					subCategoryLink: '/resources/get-involved'
+				},
+				{
+					subCategory: 'Telegram',
+					subCategoryLink: 'https://t.me/fossiaorg'
 				},
 				{
 					subCategory: 'GitHub',
@@ -97,6 +101,10 @@ export const footerNavigationData: FooterData = {
 				{
 					subCategory: 'Instagram',
 					subCategoryLink: 'https://instagram.com/fossiaorg'
+				},
+				{
+					subCategory: 'YouTube',
+					subCategoryLink: 'https://youtube.com/@fossiaorg'
 				},
 				{
 					subCategory: 'Contact',

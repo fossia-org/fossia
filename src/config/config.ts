@@ -23,7 +23,7 @@ export interface Config {
 export const configData: Config = {
 	siteTitle: 'FOSSIA',
 	siteDescription:
-		'FOSSIA is a women-centric community aimed to encourage underrepresented people to contribute to Indian FOSS ecosystem.',
+		'FOSSIA is a women-centric community aimed to encourage underrepresented people to contribute to the Indian free software ecosystem.',
 	ogImage: '/logo.png',
 	logo: {
 		src: '/logo.png',
