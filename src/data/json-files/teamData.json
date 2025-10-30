@@ -1,0 +1,135 @@
+[
+    {
+        "id": "keerthana",
+        "name": "Keerthana Rajesh Kumar",
+        "aka": "grittypuffy",
+        "pronouns": "she/her",
+        "role": "Founder",
+        "image": "/team/keerthana.jpg",
+        "about": "An ardent free software, community and DEIA enthusiast, and duck programmer (but scared of one)",
+        "favQuote": "'Disability is the one minority group that anyone can join at any time.' - Stella Young",
+        "hobbies": [
+            "programming",
+            "reading",
+            "writing",
+            "travelling",
+            "talking with plushies",
+            "spacing out"
+        ],
+        "links": [
+            {
+                "type": "website",
+                "url": "https://libremusings.dev"
+            },
+            {
+                "type": "github",
+                "url": "https://github.com/grittypuffy"
+            },
+            {
+                "type": "linkedin",
+                "url": "https://www.linkedin.com/in/keerthana304"
+            }
+        ]
+    },
+    {
+        "id": "lekashree",
+        "name": "Leka Shree N",
+        "aka": "leka",
+        "pronouns": "she/her",
+        "role": "Member",
+        "image": "/team/lekashree.jpg",
+        "about": "Just someone who believes in diversity, inclusion, equity and accessibility, values privacy above all and loves contributing to free software projects",
+        "favQuote": "'Isn't it better to be happy together than to be right alone' - Haemin Sumin",
+        "hobbies": [
+            "art",
+            "exploring new ideas",
+            "exploring new places",
+            "programming"
+        ],
+        "links": [
+            {
+                "type": "linkedin",
+                "url": "https://www.linkedin.com/in/leka-shree"
+            },
+            {
+                "type": "github",
+                "url": "https://github.com/lekashree05"
+            }
+        ]
+    },
+    {
+        "id": "varshha",
+        "name": "A Varshha",
+        "aka": "V",
+        "pronouns": "she/her",
+        "role": "Member",
+        "image": "/team/varshha.jpg",
+        "about": "A student who is passionate about inclusion for all",
+        "favQuote": "'Rivers know this: There is no hurry. We shall get there some day.' - Winnie The Pooh",
+        "hobbies": [
+            "travelling",
+            "stargazing",
+            "reading",
+            "writing",
+            "dancing",
+            "running",
+            "swimming"
+        ],
+        "links": [
+            {
+                "type": "linkedin",
+                "url": "https://www.linkedin.com/in/varshha-a-105146216"
+            }
+        ]
+    },
+    {
+        "id": "kavibhagya",
+        "name": "Kavibhagya K",
+        "aka": "Kavi",
+        "pronouns": "she/her",
+        "role": "Member",
+        "image": "/team/kavibhagya.jpg",
+        "about": "Spreading inclusion, fixing bugs, and sprinkling a little chaos in free software!",
+        "favQuote": "'Be stronger than your excuses'",
+        "hobbies": [
+            "movies",
+            "juggling with bugs",
+            "reading",
+            "traveling"
+        ],
+        "links": [
+            {
+                "type": "github",
+                "url": "https://github.com/Kavibhagya30"
+            },
+            {
+                "type": "linkedin",
+                "url": "https://www.linkedin.com/in/kavibhagya-k"
+            }
+        ]
+    },
+    {
+        "id": "jessica",
+        "name": "Jessica Susan John",
+        "aka": "Nuvra",
+        "pronouns": "she/her",
+        "role": "Designer",
+        "image": "/team/jessica.jpg",
+        "about": "Creating an impact through design in free software",
+        "favQuote": "Stellaviva",
+        "hobbies": [
+            "design",
+            "art"
+        ],
+        "links": [
+            {
+                "type": "github",
+                "url": "https://github.com/Nuvra3"
+            },
+            {
+                "type": "linkedin",
+                "url": "https://www.linkedin.com/in/jessica-john-14001b295"
+            }
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+---
+// Components
+// - Layout
+import Layout from '../../layouts/Layout.astro'
+// - UI
+import Col from '../../components/ui/Col.astro'
+import Row from '../../components/ui/Row.astro'
+import Section from '../../components/ui/Section.astro'
+import Card from '../../components/ui/cards/TeamCard.astro'
+
+// - SEO
+const SEO = {
+	title: 'Team - FOSSIA',
+	description: 'Meet the team and community behind FOSSIA.'
+}
+
+import team from '../../data/json-files/teamData.json'
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Section id="intro" padding="top" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="2" />
+			<Col span="8" align="center" classes="space-x-8 space-y-4 mb-4">
+				<h1>Our <strong>Team</strong></h1>
+				<h3>Meet the amazing and friendly people behind FOSSIA</h3>
+			</Col>
+			<Col span="8" />
+		</Row>
+	</Section>
+	<Section id="team-members">
+		<div class="columns-1 gap-6 lg:columns-3">
+			{
+				team.map((teamMember) => {
+					return (
+						<div class="mb-6 break-inside-avoid">
+							<Card
+								title={teamMember.name}
+								image={teamMember.image}
+								pronouns={teamMember.pronouns}
+								role={teamMember.role}
+								about={teamMember.about}
+								links={teamMember.links}
+								id={teamMember.id}
+								hobbies={teamMember.hobbies}
+								favQuote={teamMember.favQuote}
+								aka={teamMember.aka}
+							/>
+						</div>
+					)
+				})
+			}
+		</div>
+	</Section>
+</Layout>
