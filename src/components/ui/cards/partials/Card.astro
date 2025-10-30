@@ -20,9 +20,9 @@ const { link, classes } = Astro.props
 			<slot />
 		</a>
 	) : (
-		<div class:list={['card', { [`${classes}`]: classes }]}>
+		<section class:list={['card', { [`${classes}`]: classes }]}>
 			<slot />
-		</div>
+		</section>
 	)
 }
 <style>

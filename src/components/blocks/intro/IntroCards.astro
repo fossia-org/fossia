@@ -1,0 +1,45 @@
+---
+// Feature Cards grid Section
+// ------------
+// Description: A grid of cards with feature information in a 4 column layout.
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import Card from '../../ui/cards/FeatureCard.astro'
+
+---
+
+<Section id="features">
+	<Row>
+		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
+			<h3 class="text-pretty">FOSSIA is an inclusive women-centric community built to encourage the development of the free software ecosystem in India by equipping people from underrepresented backgrounds</h3>
+		</Col>
+	</Row>
+	<Row>
+		<Col span="4">
+			<Card
+				title="Projects"
+				subtitle="We develop inclusive technologies and community-oriented projects for improving inclusion and accessibility."
+				link="/projects"
+			/>
+		</Col>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="Mentoring"
+				subtitle="We mentor people from underrepresented backgrounds to contribute to our projects and the overall free software ecosystem."
+				link=""
+			/>
+		</Col>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="Events"
+				subtitle="We host events related to inclusion and free software to build an inclusive free software ecosystem."
+				link=""
+			/>
+		</Col>
+	</Row>
+</Section>

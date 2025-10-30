@@ -102,17 +102,6 @@ const savedNavActions = navActions.map((action) => ({
 
 			<!-- Theme Switcher -->
 			<Switcher />
-
-			<!-- Navigation action buttons -->
-			<div class="header__actions">
-				{
-					savedNavActions.map((action) => (
-						<Button classes="flex-auto" size={action.size} style={action.style} modal="signup">
-							{action.name}
-						</Button>
-					))
-				}
-			</div>
 		</nav>
 	</div>
 </header>

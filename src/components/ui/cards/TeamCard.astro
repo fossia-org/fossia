@@ -1,0 +1,126 @@
+---
+// Feature Card
+// ------------
+// Description: The Card for presenting a feature
+// Properties:
+// - Title: the title of the card
+// - Subtitle: the subtitle of the card
+// - Image: the main image of the card
+// - Link: The link to the blog post
+// Reference: https://wind-ui.com/components/cards/
+
+// Components
+// - UI
+import { Image } from 'astro:assets'
+import Card from './partials/Card.astro'
+import CardBody from './partials/CardBody.astro'
+import { Icon } from 'astro-icon/components'
+
+// Props
+type Props = {
+	title?: string
+	pronouns: string
+	role: string
+	about: string
+	image?: any
+	classes?: string
+	aka: string
+	favQuote: string
+	hobbies: string[]
+	links: {
+		type: string
+		url: string
+	}[]
+	id: string
+}
+const { title = '', pronouns, role, image, links, id, hobbies, favQuote, aka, about } = Astro.props
+---
+
+<Card
+	link={''}
+	classes={`!bg-neutral-50 !shadow-none dark:!bg-neutral-900  border border-neutral-100 dark:border-neutral-800 grid grid-col h-full mb-6`}
+>
+	{
+		image && (
+			<Image
+				src={image}
+				alt={title}
+				class={`h-full max-h-80 w-full max-w-80 place-self-center rounded-full p-6`}
+				width={300}
+				height={300}
+			/>
+		)
+	}
+	<CardBody classes="!grid p-0 gap-y-4 text-neutral-700 dark:text-neutral-300">
+		<section class="team-member--info grid grid-cols-[auto_1fr] items-center gap-4 text-left">
+			<div
+				class="grid h-full w-full place-items-center rounded-md bg-primary-500 p-2 text-xs font-semibold uppercase text-primary-50"
+			>
+				{role}
+			</div>
+
+			<div class="grid gap-0.5">
+				<div class="grid grid-cols-[1fr_auto] items-center">
+					<h3 class="m-0 text-xl text-neutral-900 dark:text-neutral-100">
+						{title}
+					</h3>
+					<strong
+						class="m-0 rounded-full bg-neutral-200 px-1.5 py-0.5 text-xs font-light text-neutral-500 dark:bg-neutral-700 dark:text-neutral-200"
+					>
+						{pronouns}
+					</strong>
+				</div>
+
+				<div class="flex flex-row items-baseline space-x-2 space-y-1">
+					<p class="m-0 text-sm text-neutral-600 dark:text-neutral-400">AKA</p>
+					<h4 class="m-0 text-sm font-medium text-primary-600">@{aka}</h4>
+				</div>
+			</div>
+		</section>
+
+		<p class="text-md m-0 mt-2">
+			{about}
+		</p>
+		<p class="text-md m-0 mt-2">
+			<strong>Favourite Quote:</strong>
+			{favQuote}
+		</p>
+		<section class="team-member--hobbies">
+			<strong>Hobbies:</strong>
+			<ul class="mt-2 flex flex-row flex-wrap gap-2">
+				{
+					hobbies.map((hobby) => (
+						<li class="rounded-md bg-neutral-200 px-2 capitalize dark:bg-neutral-800">{hobby}</li>
+					))
+				}
+			</ul>
+		</section>
+		<section class="team-member--links mt-2">
+			{
+				links.map((link) => {
+					let icon = link.type
+					switch (link.type) {
+						case 'website':
+							icon = 'global'
+							break
+						default:
+							break
+					}
+					return (
+						<a href={link.url}>
+							<button class="px-2" aria-label={icon}>
+								<Icon name={`${icon}`} class="card__icon" />
+							</button>
+						</a>
+					)
+				})
+			}
+		</section>
+		<slot />
+	</CardBody>
+</Card>
+<style>
+	.card__icon {
+		@apply inline-block size-6 shrink-0 text-primary-500;
+	}
+</style>

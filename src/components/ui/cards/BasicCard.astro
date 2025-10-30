@@ -25,13 +25,14 @@ type Props = {
 	title?: string
 	subtitle?: string
 	titleSize?: 'sm' | 'base' | 'lg' | 'xl'
+	rounded?: boolean
 	image?: any
 	icon?: string
 	link?: string
 	type?: 'image-top' | 'image-bottom'
 	classes?: string
 }
-const { title = '', subtitle, titleSize = 'lg', image, icon, link, type, classes } = Astro.props
+const { title = '', subtitle, titleSize = 'lg', rounded = false,  image, icon, link, type, classes } = Astro.props
 ---
 
 <Card classes={classes} link={link}>
@@ -40,7 +41,7 @@ const { title = '', subtitle, titleSize = 'lg', image, icon, link, type, classes
 			<Image
 				src={image}
 				alt={title}
-				class={type === 'image-bottom' ? 'order-2' : ''}
+				class={`${type === 'image-bottom' ? 'order-2' : ''} ${rounded ? 'rounded-full' : ''}`}
 				width={600}
 				height={400}
 			/>
