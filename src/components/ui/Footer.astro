@@ -21,7 +21,7 @@ const { footerAbout, footerColumns, subFooter } = footerNavigationData
 		<div class="footer__container">
 			<div class="footer__cols">
 				<div class="footer__col">
-					<a aria-label="webiste logo" aria-current="page" class="footer__main-brand" href="/">
+					<a aria-label="FOSSIA website logo" aria-current="page" class="footer__main-brand" href="/">
 						<img src={footerAbout.logo.src} alt={footerAbout.logo.alt} width="128" height="128" />
 					</a>
 					<p>
@@ -100,7 +100,7 @@ const { footerAbout, footerColumns, subFooter } = footerNavigationData
 		@apply border-t border-neutral-200 bg-neutral-100 py-4 text-sm text-neutral-600 dark:border-neutral-900 dark:bg-neutral-800/50 dark:text-neutral-400;
 	}
 	.footer__sub ul {
-		@apply flex items-center justify-end gap-6;
+		@apply flex items-center justify-end gap-2 lg:gap-3 xl:gap-6;
 	}
 	.footer__sub a {
 		@apply [&_svg]:h-4 [&_svg]:w-4 [&_svg]:shrink-0;
