@@ -4,6 +4,7 @@
 import Layout from '../../layouts/Layout.astro'
 // - UI
 import Hero from '../../components/blocks/hero/PageHeader.astro'
+import Section from '../../components/ui/Section.astro'
 
 // Content
 // - SEO
@@ -14,73 +15,154 @@ const SEO = {
 ---
 
 <Layout title={SEO.title} description={SEO.description}>
-	<Hero title="Code of Conduct" />
-	<div class="flex flex-col space-y-4 p-16">
-		<div class="coc-item">
-			<h3 class="mb-2 font-medium">Respect & Kindness</h3>
+	<Hero title="The FOSSIA Codebook" />
+	<Section classes="flex flex-col justify-evenly items-center">
+		<section class="coc-item py-4">
+			<h3>A note from the organizers</h3>
 			<p>
-				Be respectful and kind to all members. Build a welcoming community where everyone can feel
-				safe to contribute, learn, and develop.
+				We welcome you to join our events organized by FOSSIA community, Telegram groups,
+				collaborate on GitHub, follow up on social media or e-mail with an intention to learn,
+				connect and explore the free software ecosystem in a respectful and kind manner.
 			</p>
-		</div>
-
-		<div class="coc-item">
-			<h3 class="mb-2 font-medium">Collaboration & Inclusion</h3>
 			<p>
-				We promote collaboration and inclusion. We believe in contributions from all members,
-				irrespective of gender, background or experience.
+				Our objective is to create a supportive environment for people from underrepresented
+				backgrounds (which includes women, people with disabilities (PwDs), racial, ethnic,
+				religious, gender minorities and economically weaker section (EWS)) to get involved in the
+				free software ecosystem. As a women-centric community, we welcome everyone (including men
+				and allies) who supports our values towards inclusion and development of the free software
+				ecosystem. To adhere to our goals of ensuring inclusion and equity, some events and spaces
+				will be reserved exclusively for women and people from underrepresented backgrounds.
 			</p>
-		</div>
-
-		<div class="coc-item">
-			<h3 class="mb-2 font-medium">Zero Tolerance for Harassment</h3>
-			<p>Harassment, discrimination, or any form of hurtful behavior is not tolerated.</p>
-		</div>
-
-		<div class="coc-item">
-			<h3 class="mb-2 font-medium">Constructive Feedback</h3>
 			<p>
-				In providing feedback, be helpful and constructive. Instead of criticizing people, highlight
-				ways to make ideas better.
+				To maintain the spirits of the community and inclusive environment, we expect everyone, be
+				it attendees, speakers, sponsors, project contributors, maintainers, members, and
+				volunteers, to adhere to the Code of Conduct.
 			</p>
-		</div>
-
-		<div class="coc-item">
-			<h3 class="mb-2 font-medium">Mutual Support</h3>
 			<p>
-				FOSSIA is found on the principle of mutual support. Support fellow members, exchange
-				resources, and support one another to succeed.
+				We expect cooperation from everyone to ensure that our community remains a safe and
+				welcoming place for everyone.
 			</p>
-		</div>
+		</section>
 
-		<div class="coc-item">
-			<h3 class="mb-2 font-medium">Collaborative Learning</h3>
+		<section class="coc-item py-4">
+			<h3>Our Code</h3>
 			<p>
-				We are here to learn together. Be willing to learn from others and exchange knowledge
-				freely.
+				FOSSIA is committed to providing a safe, inclusive, and harassment-free environment. We do
+				not tolerate:
 			</p>
-		</div>
+			<ul class="mb-4 ml-4 list-disc">
+				<li>
+					Harassment of participants, volunteers, mentors, maintainers, contributors, speakers,
+					sponsors, members, or anyone associated with the community.
+				</li>
+				<li>
+					Sexual language or imagery in events, online spaces, or public collaboration groups.
+				</li>
+				<li>
+					Irrelevant or misleading political discussions, considering we want to keep this space
+					relevant to technology and free software ecosystem.
+				</li>
+			</ul>
 
-		<div class="coc-item">
-			<h3 class="mb-2 font-medium">Privacy</h3>
 			<p>
-				Be respectful of other people's privacy. Don't disclose personal or sensitive information
-				without permission.
+				Our community events, public communication and collaboration channels prohibits
+				discrimination and offensive communication, be it verbal or non-verbal based on, but not
+				limited to the following factors:
 			</p>
-		</div>
-
-		<div class="coc-item">
-			<h3 class="mb-2 font-medium">Equal Opportunities</h3>
+			<ul class="mb-4 ml-4 list-disc">
+				<li>Gender</li>
+				<li>Age</li>
+				<li>Sexual orientation</li>
+				<li>Disability</li>
+				<li>Physical appearance</li>
+				<li>Race or ethnicity</li>
+				<li>Religion or lack thereof</li>
+				<li>Demographics</li>
+				<li>Technological choices</li>
+				<li>Political alignment</li>
+			</ul>
 			<p>
-				FOSSIA believes in an egalitarian women-centric community allowing passionate individuals to
-				join and contribute, irrespective of their identity or background to build a safe and
-				inclusive space for women to contribute to the FOSS ecosystem.
+				Participants violating these rules may be sanctioned or expelled at the discretion of the
+				community.
 			</p>
-		</div>
+			<p>
+				If you are harassed or feel uncomfortable at any of our events, social, communication and
+				collaboration channels, please report it to the community as specified in the Code of
+				Conduct.
+			</p>
+		</section>
 
-		<div class="coc-item">
-			<h3 class="mb-2 font-medium">Appropriate Use of Authority</h3>
-			<p>Abuse of authority is not entertained.</p>
-		</div>
-	</div>
+		<section class="coc-item py-4">
+			<h3>A longer version</h3>
+			<p>
+				Harassment includes but is not limited to offensive verbal or non-verbal comments related to
+				gender, gender identity and expression, age, sexual orientation, disability, physical
+				appearance, body size, race, ethnicity, religion, technology choices, sexual images in
+				public spaces, deliberate intimidation, stalking, following, harassing photography or
+				recording, sustained disruption of the event, inappropriate physical contact, unwelcome
+				sexual attention and stereotyping in our event spaces, public communication, collaboration
+				and social forums.
+			</p>
+			<p>
+				Participants asked to stop any such behaviour are expected to comply immediately. If a
+				participant engages in harassing behaviour despite being asked to stop such behaviour, the
+				FOSSIA team will take an appropriate action, including warning the offender or expulsion
+				from the event or online communication and collaboration spaces to ensure the safety of
+				participants.
+			</p>
+			<p>
+				The code of conduct and anti-harassment policies apply to everyone participating in the
+				event including attendees, maintainers, contributors, sponsors, speakers, judges, mentors,
+				volunteers, organisers, and FOSSIA members.
+			</p>
+			<p>
+				Regardless of the event being a virtual or online-only event, we expect participants to
+				adhere to these rules at all avenues, online and offline alike.
+			</p>
+			<p>
+				Similarly, we expect participants to adhere to the code of conduct in our online
+				collaboration, social and communication forums.
+			</p>
+			<p>
+				For events that are only for people from underrepresented backgrounds, we limit
+				participation from the same to ensure equity and inclusion. If an attendee has registered
+				for an event but does not belong to an underrepresented background, they will not be
+				permitted to attend the event and are expected to comply with the same.
+			</p>
+		</section>
+
+		<section class="coc-item py-4">
+			<h3>Reporting Code of Conduct Violations</h3>
+			<p>
+				If you are being harassed, notice that someone else is being harassed, or come across a
+				violation of the code of conduct, please contact a volunteer/organiser immediately.
+				Participants can e-mail <a href="mailto:coc-fossia@riseup.net">coc-fossia@riseup.net</a> for
+				any reports or queries. All reporters will remain anonymous.
+			</p>
+		</section>
+
+		<section class="coc-item py-4">
+			<h3>Special Incidents</h3>
+			<p>
+				If you are uncomfortable reporting your situation to the volunteers or need to contact a
+				full-time member of the organization in case of an emergency, please reach out to the
+				following contacts:
+			</p>
+			<ul class="ml-4 list-disc">
+				<li>
+					Keerthana Rajesh Kumar - <a href="mailto:grittypuffy@riseup.net">grittypuffy@riseup.net</a
+					>
+				</li>
+			</ul>
+		</section>
+
+		<section class="coc-item py-4">
+			<h3>Credits</h3>
+			<p>
+				Portions of this Code of Conduct are based on the FOSS United's code of conduct, example
+				code of conduct from the MLH policies, created by Major League Hacking, under a Creative
+				Commons attribution-ShareAlike 4.0 International Public License
+			</p>
+		</section>
+	</Section>
 </Layout>
