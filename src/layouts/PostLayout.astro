@@ -12,11 +12,12 @@ import BlogPostHero from '../components/blocks/blog/BlogPostHero.astro'
 // - SEO
 const SEO = {
 	title: `${frontmatter.title} | FOSSIA`,
-	description: `${frontmatter.description}`
+	description: `${frontmatter.description}`,
+	ogImage: `${frontmatter.image}`
 }
 ---
 
-<Layout title={SEO.title} description={SEO.description}>
+<Layout title={SEO.title} description={SEO.description} ogImage={SEO.ogImage}>
 	<BlogPostHero
 		tags={frontmatter.tags}
 		title={frontmatter.title}
